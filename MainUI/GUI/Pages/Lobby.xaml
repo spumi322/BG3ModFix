@@ -494,7 +494,7 @@
                                     </ListBox.ItemContainerStyle>
                                 </ListBox>
 
-                                <StackPanel x:Name ="DirectConnectionSection" Margin="0 50 0 0" Visibility="{Binding DirectConnectionID, Converter={StaticResource StringToVisibilityConverter}}">
+                                <StackPanel x:Name ="DirectConnectionSection" Margin="0 50 0 0" Visibility="Collapsed">
                                     <TextBlock Text="{Binding Source='haf666ef6gd33fg456cg830bg4158a2107a5e', Converter={StaticResource TranslatedStringConverter}, ConverterParameter='ToUpper'}" HorizontalAlignment="Center" VerticalAlignment="Top" 
                                            FontSize="{StaticResource MediumFontSize}" Foreground="{StaticResource LS_SecondaryColor}" Margin="0 15"/>
 
